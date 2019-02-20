@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.github.bogieclj.molecule.playground;
+package com.iomolecule.playground;
 
-import com.github.bogieclj.molecule.module.MoleculeModule;
+import com.iomolecule.module.MoleculeModule;
 
 public class TestModule extends MoleculeModule{
 

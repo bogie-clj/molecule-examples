@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.github.bogieclj.molecule.mod.test1;
+package com.iomolecule.mod.test1;
 
-import com.github.bogieclj.molecule.system.Param;
-import com.github.bogieclj.molecule.system.annotations.Id;
+import com.iomolecule.system.Param;
+import com.iomolecule.system.annotations.Id;
 
 import java.util.function.Function;
 

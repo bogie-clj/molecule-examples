@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.github.bogieclj.molecule.playground;
+package com.iomolecule.playground;
 
 import io.github.classgraph.*;
 
@@ -23,8 +23,8 @@ import java.util.List;
 public class TestClassGraph {
 
     public static void main(String[] args) {
-        String pkg = "com.github.bogieclj.molecule.mod.test2";
-        String idAnnotation = "com.github.bogieclj.molecule.system.annotations.Id";
+        String pkg = "com.iomolecule.mod.test2";
+        String idAnnotation = "com.iomolecule.system.annotations.Id";
         try (ScanResult scanResult =
                      new ClassGraph()
                              .ignoreClassVisibility()

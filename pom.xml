@@ -26,6 +26,7 @@
         <module>molecule-example1</module>
         <module>molecule-example2</module>
         <module>molecule-playground</module>
+        <module>molecule-sql-example1</module>
     </modules>
 
     <properties>

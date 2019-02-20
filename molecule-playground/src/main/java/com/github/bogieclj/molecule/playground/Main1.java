@@ -16,12 +16,13 @@
 
 package com.github.bogieclj.molecule.playground;
 
-import com.github.bogieclj.molecule.mods.main.SysBuilder;
-import com.github.bogieclj.molecule.module.ModuleInfo;
-import com.github.bogieclj.molecule.module.annotations.ModulesInfo;
-import com.github.bogieclj.molecule.system.*;
-import com.github.bogieclj.molecule.system.annotations.DomainOperations;
-import com.github.bogieclj.molecule.system.annotations.EventSink;
+import com.github.bogieclj.molecule.CommandLineShell;
+import com.iomolecule.mods.main.SysBuilder;
+import com.iomolecule.module.ModuleInfo;
+import com.iomolecule.module.annotations.ModulesInfo;
+import com.iomolecule.system.*;
+import com.iomolecule.system.annotations.DomainOperations;
+import com.iomolecule.system.annotations.EventSink;
 import com.google.common.eventbus.Subscribe;
 import com.google.inject.AbstractModule;
 import com.google.inject.multibindings.ProvidesIntoSet;
@@ -32,7 +33,7 @@ import javax.inject.Inject;
 import java.util.List;
 import java.util.Set;
 
-import static com.github.bogieclj.molecule.util.CollectionUtils.*;
+import static com.iomolecule.util.CollectionUtils.*;
 
 public class Main1 {
 

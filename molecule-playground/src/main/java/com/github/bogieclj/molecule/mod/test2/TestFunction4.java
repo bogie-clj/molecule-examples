@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.github.bogieclj.molecule.mod.test2;
+package com.iomolecule.mod.test2;
 
-import com.github.bogieclj.molecule.system.Param;
+import com.iomolecule.system.Param;
 
 import java.util.function.Function;
 

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.github.bogieclj.molecule.playground;
+package com.iomolecule.playground;
 
-import com.github.bogieclj.molecule.system.LifecycleException;
-import com.github.bogieclj.molecule.system.LifecycleManager;
-import com.github.bogieclj.molecule.system.Shell;
-import com.github.bogieclj.molecule.system.annotations.SyncEventBus;
-import com.github.bogieclj.molecule.system.services.DomainService;
-import com.github.bogieclj.molecule.system.services.EventsService;
-import com.github.bogieclj.molecule.system.services.FnBus;
-import com.github.bogieclj.molecule.system.services.SysLifecycleCallbackService;
+import com.iomolecule.system.LifecycleException;
+import com.iomolecule.system.LifecycleManager;
+import com.iomolecule.system.Shell;
+import com.iomolecule.system.annotations.SyncEventBus;
+import com.iomolecule.system.services.DomainService;
+import com.iomolecule.system.services.EventsService;
+import com.iomolecule.system.services.FnBus;
+import com.iomolecule.system.services.SysLifecycleCallbackService;
 import com.google.common.eventbus.EventBus;
 import lombok.extern.slf4j.Slf4j;
 

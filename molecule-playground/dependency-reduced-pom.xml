@@ -21,7 +21,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.github.bogieclj.molecule.playground.Main1</mainClass>
+                  <mainClass>com.iomolecule.playground.Main1</mainClass>
                 </transformer>
               </transformers>
             </configuration>

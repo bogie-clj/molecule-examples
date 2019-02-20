@@ -1,17 +1,17 @@
-package com.github.bogieclj.molecule.example.example2;
+package com.iomolecule.example.example2;
 
-import com.github.bogieclj.molecule.mods.main.SysBuilder;
-import com.github.bogieclj.molecule.module.ModuleInfo;
-import com.github.bogieclj.molecule.system.LifecycleException;
-import com.github.bogieclj.molecule.system.OnExit;
-import com.github.bogieclj.molecule.system.OnStartup;
-import com.github.bogieclj.molecule.system.Sys;
-import com.github.bogieclj.molecule.system.annotations.SyncEventBus;
+import com.iomolecule.mods.main.SysBuilder;
+import com.iomolecule.module.ModuleInfo;
+import com.iomolecule.system.LifecycleException;
+import com.iomolecule.system.OnExit;
+import com.iomolecule.system.OnStartup;
+import com.iomolecule.system.Sys;
+import com.iomolecule.system.annotations.SyncEventBus;
 import com.google.common.eventbus.EventBus;
 
 import javax.inject.Inject;
 
-import static com.github.bogieclj.molecule.util.CollectionUtils.MAP;
+import static com.iomolecule.util.CollectionUtils.MAP;
 
 public class Main {
 

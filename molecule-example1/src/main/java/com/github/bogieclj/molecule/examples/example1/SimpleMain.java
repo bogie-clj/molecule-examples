@@ -1,7 +1,7 @@
 package com.github.bogieclj.molecule.examples.example1;
 
-import com.github.bogieclj.molecule.mods.main.SysBuilder;
-import com.github.bogieclj.molecule.system.LifecycleException;
+import com.iomolecule.mods.main.SysBuilder;
+import com.iomolecule.system.LifecycleException;
 
 public class SimpleMain {
 

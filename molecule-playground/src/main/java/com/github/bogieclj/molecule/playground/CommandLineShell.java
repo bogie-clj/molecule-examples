@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.github.bogieclj.molecule.playground;
+package com.github.bogieclj.molecule;
 
-import com.github.bogieclj.molecule.system.Operation;
-import com.github.bogieclj.molecule.system.Shell;
-import com.github.bogieclj.molecule.system.services.DomainService;
+import com.iomolecule.system.Operation;
+import com.iomolecule.system.Shell;
+import com.iomolecule.system.services.DomainService;
 import lombok.extern.slf4j.Slf4j;
 import picocli.CommandLine;
 
