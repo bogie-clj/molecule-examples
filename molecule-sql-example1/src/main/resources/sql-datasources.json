@@ -1,0 +1,27 @@
+{
+  "sql" : {
+    "datasources" : {
+      "test-1" : {
+        "url" : "jdbc:h2:~/test1",
+        "userId" : "test-uid",
+        "password" : "test-password",
+        "attributes" : {
+          "class-name" : "sometestclass1"
+        }
+      },
+      "test-2" : {
+        "url" : "jdbc:h2:~/test2",
+        "userId" : "test-uid",
+        "password" : "test-password",
+        "attributes" : {
+          "class-name" : "sometestclass2"
+        }
+      }
+
+    }
+  },
+  "http-shell-config":{
+    "port" : 8080,
+    "bind-address" : "localhost"
+  }
+}

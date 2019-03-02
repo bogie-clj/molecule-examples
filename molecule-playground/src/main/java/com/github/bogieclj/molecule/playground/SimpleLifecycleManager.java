@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.iomolecule.playground;
+package com.github.bogieclj.molecule.playground;
 
 import com.iomolecule.system.LifecycleException;
 import com.iomolecule.system.LifecycleManager;
