@@ -1,0 +1,23 @@
+{
+  "test-sys" : {
+    "domain1" : {
+      "get" : {
+        "uri" : "function://test-sys/domain1/function1",
+        "doc" : "Sample Documentation"
+      }
+    },
+    "domain2" : {
+      "post" : {
+        "uri" : "function://test-sys/domain1/function2",
+        "doc" : "Sample Documentation"
+      }
+    },
+    "domain3" : {
+      "post" : {
+        "uri" : "function://test-sys/domain1/function3",
+        "doc" : "Sample Documentation"
+      }
+    }
+
+  }
+}

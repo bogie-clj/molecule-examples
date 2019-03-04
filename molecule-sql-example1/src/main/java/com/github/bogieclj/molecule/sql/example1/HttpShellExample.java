@@ -1,5 +1,7 @@
 package com.github.bogieclj.molecule.sql.example1;
 
+import com.github.bogieclj.molecule.sql.example1.testpkg.Person;
+import com.github.bogieclj.molecule.sql.example1.testpkg.PersonConverter;
 import com.google.common.eventbus.Subscribe;
 import com.iomolecule.config.InputStreamConfigurationSource;
 import com.iomolecule.mods.httpshell.HttpShellModule;
@@ -10,6 +12,8 @@ import com.iomolecule.system.Event;
 import com.iomolecule.system.LifecycleException;
 import com.iomolecule.system.Sys;
 import lombok.extern.slf4j.Slf4j;
+
+import java.util.AbstractMap;
 
 import static com.iomolecule.util.CollectionUtils.KV;
 import static com.iomolecule.util.CollectionUtils.MAP;
@@ -33,8 +37,11 @@ public class HttpShellExample {
                 .withModules(new HttpShellModule(),
                         new JLineInteractiveShellModule())
                 .withEventsSinks(new SampleEventListener())
+                .withDomainDefintions("/test-domain.json")
+                .withFnProviderClasspaths("com.github.bogieclj.molecule.sql.example1.testpkg")
                 .withConfigurations(new InputStreamConfigurationSource(false,
                         true,Main.class.getResourceAsStream("/sql-datasources.json")))
+                .withConverterEntries(new AbstractMap.SimpleEntry<>(Person.class,new PersonConverter()))
                 .build();
 
         sys.start();
