@@ -1,5 +1,6 @@
 package com.github.bogieclj.molecule.sql.example1.testpkg;
 
+import com.iomolecule.system.annotations.DefaultValue;
 import com.iomolecule.system.annotations.FnProvider;
 import com.iomolecule.system.annotations.Id;
 
@@ -25,7 +26,7 @@ public class TestSysFnProvider {
 
     @Id("function://test-sys/domain1/function2")
     @Named("greeting")
-    public String function2(@Named("name") String name,@Named("sex") String sex,@Named("age") Integer age){
+    public String function2(@Named("name") String name, @Named("sex") @DefaultValue("m") String sex, @Named("age") @DefaultValue("50") Integer age){
         String greetingFormat = "Hello %s.%s welcome to iomolecule! You are %d yrs old!";
 
         String message = null;
